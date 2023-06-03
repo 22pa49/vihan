@@ -1,12 +1,9 @@
-import Card from "./card"
-const app=()=>{
+import TableData from "./TableData"
+
+const App = () => {
   return(
-    <>
-    <h1>I am Mad</h1>
-    <Card name='welcome'/>
-    {/* <img src="thala-ajith-1619846161.jpg" alt=""/>  */}
-    </>
+    <TableData/>
   )
-  
 }
-export default app
+
+export default App
